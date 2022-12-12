@@ -1,5 +1,12 @@
 <?php
-echo "ciao";
+class Product
+{
+    public $name;
+    public $category;
+    public $price;
+    public $type;
+}
+
 ?>
 
 
