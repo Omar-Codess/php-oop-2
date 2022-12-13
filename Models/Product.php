@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__ . "/Category.php";
 class Product
 {
     function __construct(public string $name, public float $price, public Category $category)
