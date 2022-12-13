@@ -15,7 +15,21 @@ require_once __DIR__ . "/Database/database.php";
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="row row-cols-4">
+            <?php foreach ($products as $product) { ?>
+                <div class="col">
+                    <div class="card">
+                        <div class="car-body">
+                            <h5 class="card-title"><?php echo $product->name ?></h5>
+                            <p class="card-text">€<?php echo $product->price ?></p>
+                            <p class="card-text"><?php echo $product->getDetails() ?></p>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
 </body>
 
 </html>

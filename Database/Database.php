@@ -13,4 +13,3 @@ $products = [
     $mouse,
     $bone
 ];
-var_dump($products);
