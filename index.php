@@ -1,15 +1,3 @@
-<?php
-class Product
-{
-    public $name;
-    public $category;
-    public $price;
-    public $type;
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
